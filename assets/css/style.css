@@ -1,12 +1,3 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #66666;
@@ -373,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
-  visibility: visible;
+  visibility: invisible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
@@ -493,12 +484,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2dc997;
+  color:white;
 }
 
 #mobile-body-overly {
   width: 100%;
-  height: 100%;
+  height: 60%;
   z-index: 997;
   top: 0;
   left: 0;
@@ -553,15 +544,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-descr .p-heading {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  /* max-width: 80%; */
+  font-size: 21px;
   text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin-bottom: 0;
-  /*text-align: left;*/
   margin: auto;
+  /* text-align: center; */
 }
 
 #about p {
@@ -574,6 +568,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+  align-items: center;
+  text-align: center;
 }
 
 .owl-item {
@@ -632,6 +628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: none;
 }
 
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -642,7 +639,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: auto !important;
   text-align: justify;
   margin-bottom: 15px;
-  width: 1040px;
 }
 
 .section-title h2 {
