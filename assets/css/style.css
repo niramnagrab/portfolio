@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .services-block span {
   margin: 10px 0;
   position: relative;
-  font-size: 15px;
+  font-size: 15gapx;
   color: #292929;
   letter-spacing: 0.1em;
   font-weight: 500;
